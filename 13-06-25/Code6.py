@@ -12,4 +12,4 @@ def blast(query,db,list):
         "seq009": "TATATATATA",
         "seq010": "ATGCGGATGCA"
     }
-print(df)
+print(db)
