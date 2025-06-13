@@ -1,0 +1,18 @@
+Cartoons=['Tom & Jerry','Doremon','Shinshan','Oggy & Cokroches']
+print(Cartoons)
+print("After Appending: ")
+Cartoons.append('Heidi')
+print(Cartoons)
+#add three elements
+Cartoons.append('Roll.NO 21')
+Cartoons.append('Little Krishna')
+Cartoons.append('Motu and Patlu')
+print(Cartoons)
+Cartoons.insert(0,'Chotabheem')
+print(Cartoons)
+Cartoons.pop()
+print(Cartoons)
+Cartoons.pop(0)
+print(Cartoons)
+Cartoons.remove('Oggy & Cokroches')
+print(Cartoons)
