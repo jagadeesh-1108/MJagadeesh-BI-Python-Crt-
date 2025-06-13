@@ -9,3 +9,4 @@ def generate_report(dna,db):
         Count_C = dna.count(i)
     GC_Count = (Count_G+Count_C)/len(dna)*100
     if(GC_Count )
+#git changes
