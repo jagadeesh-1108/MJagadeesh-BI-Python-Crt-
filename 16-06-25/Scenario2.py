@@ -44,6 +44,6 @@ r6=Final_Report("Closing_Ceremony,Prizes_Distributions",15,"Project_C,Project_F"
 Display_report(r1)
 Display_report(r2)
 Display_report(r3)
-Display_report(r3)
 Display_report(r4)
 Display_report(r5)
+Display_report(r6)
