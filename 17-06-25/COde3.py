@@ -12,17 +12,20 @@ class Book:
         self.BookName=bookname
     def Get_1(self):
         print(f"BookName: {self.BookName}")    
+        print("----------------------------!")
 
     def __init__(self,bookname,authourname):
         self.BookName=bookname
         self.AuthourName=authourname
     def Get_2(self):
         print(f"BookName: {self.BookName}")
-        print(f"AuthourName: {self.AuthourName}")    
+        print(f"AuthourName: {self.AuthourName}")  
+        print("-------------------------------------!")  
     def __init__(self):
         pass
     def Get_3(self):
-        print("Book 3 has Nothing")
+        print("There is No Book 3")
+        print("-------------------------------------!")
         
     def __init__(self,bookname,authourname,publishername,publisheddate):
         self.BookName=bookname
@@ -34,6 +37,7 @@ class Book:
         print(f"AuthourName: {self.AuthourName}")
         print(f"PublisherName: {self.PublisherName}")
         print(f"Publisheddate: {self.PublishedDate}")
+        print("-------------------------------------------------!")
     def __init__(self,bookname,authourname,publishername,publisheddate,categoryofbook):
         self.BookName=bookname
         self.AuthourName=authourname
@@ -47,13 +51,14 @@ class Book:
         print(f"PublisherName: {self.PublisherName}")
         print(f"Publisheddate: {self.PublishedDate}")
         print(f"CategoryofBook: {self.CategoryofBook}")
+        print("-----------------------------------------!")
     def Set_Details(self):
         self.BookName="Java"
-B1=Book('PythonJoy of Life' )
-B2=Book('PythonJoy of Life','Jagadeesh')
-B3=Book()
-B4=Book('PythonJoy of Life','Jagadeesh','Sravya','17-06-25')        
-B5=Book('PythonJoy of Life','Jagadeesh','Sravya','17-06-25','Coding')
+B1=Book('PythonJoy of Life','Jagadeesh','Sravya','17-06-25','Coding')
+B2=Book('RichDad & PoorDad ','Akhil','Teenu','17-06-25','Personal Finance')
+B3=Book('Java of Life','Yogya','Pretty','17-06-25','Coding')
+B4=Book('C of Life','Sriram','Lalasa','17-06-25','Coding')        
+B5=Book('C++ of Life','Akhil','Maharshi','17-06-25','Coding')
 B1.Get_1()
 B2.Get_2()
 B3.Get_3()
