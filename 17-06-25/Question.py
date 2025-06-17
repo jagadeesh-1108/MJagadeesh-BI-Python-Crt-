@@ -30,7 +30,7 @@ class product:
         print(f"GST : {self.GST}")  
         print(f"Manufacture Date : {self.Manufacture_Date}")
         print(f"Expiery Date : {self.Expire_Date}")
-P1=product('Body_Location','LOC101','200','25','16-06-25','16-06-26')
+P1=product('Body_Lotion','LOC101','200','25','16-06-25','16-06-26')
 P2=product('Hair_Oil','HO102','200','25','16-06-25','16-06-26')
 P3=product('Shampoo','SH101','200','10','16-06-25','16-06-26')
 P4=product('Tooth_Paste','TH101','200','15','16-06-25','16-06-26')
