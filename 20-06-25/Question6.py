@@ -6,10 +6,8 @@
 '''
 N=int(input("Enter the square of a number : "))
 def Square(N):
-    if N==0:
-        return 
-    Square(N-1)
-    print(N*N)
+    if N>=1:
+        Square(N-1)
+        print(N*N)
     
-print(Square(N))
-print("---------------------")
+Square(N)
