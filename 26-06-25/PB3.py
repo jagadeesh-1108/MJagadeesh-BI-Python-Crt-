@@ -1,0 +1,5 @@
+arr = list(map(int,input("Enter the list of elements (space-separated): ").split()))
+print(f'Original arr: {arr}')
+arr=list(set(arr))
+arr.sort()
+print(f'Sorted arr: {arr}')
