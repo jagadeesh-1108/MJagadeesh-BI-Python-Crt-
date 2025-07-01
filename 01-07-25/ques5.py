@@ -7,4 +7,4 @@ Str=''.join(Str)
 if Str == 'ABCDEFGHIJKLMNOPQRSTUVWXYZ':
          print("Panagram")
 else:
-    print("Not a Pangaram")
+    print("Not a Pangram")
